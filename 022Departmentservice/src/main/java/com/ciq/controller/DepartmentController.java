@@ -35,8 +35,14 @@ public class DepartmentController {
 		
 		DepartMent departMent=departmentservice.getDepartMentByid(id);
 		System.out.println(departMent);
+		System.out.print("Hello");
 		return ResponseEntity.ok(departMent);
 		
 	}
+	@GetMapping("/getMeld")
+public  void getDetails()
+{
+		System.out.println("hello");
+}
 	
 }
