@@ -44,5 +44,10 @@ public  void getDetails()
 {
 		System.out.println("hello");
 }
+public void getHello()
+{
+	 System.out.println("hello welcomr0");
+}
+	
 	
 }
