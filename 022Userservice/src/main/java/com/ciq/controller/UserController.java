@@ -53,6 +53,10 @@ public ResponseEntity<ResponseDto> getUser(@PathVariable("id") Long userId)
 	return new ResponseEntity("serverIsDown", HttpStatus.BAD_GATEWAY);
 	 
  }
+ public void getDetails()
+ {
+	 System.out.print("hello");
+ }
 
 
 }
